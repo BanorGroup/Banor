@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { getImageSrc } from "@/lib/utils";
 
 interface HeroProps {
   title: string;
@@ -24,7 +25,7 @@ export function Hero({
       {heroImage && (
         <div className="absolute inset-0 z-0">
           <Image
-            src={heroImage}
+            src={getImageSrc(heroImage)}
             alt=""
             fill
             className="object-cover scale-105"

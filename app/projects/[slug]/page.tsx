@@ -4,6 +4,7 @@ import Link from "next/link";
 import * as Icons from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { getProject, getProjects } from "@/lib/data";
+import { getImageSrc } from "@/lib/utils";
 import { generateSEO, generateBreadcrumbJSONLD } from "@/lib/seo";
 
 function DynamicIcon({ name, className }: { name: string; className?: string }) {
@@ -55,7 +56,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
         <div className="relative h-[35vh] min-h-[260px] bg-slate-800">
           {project.images?.[0] ? (
             <Image
-              src={project.images[0]}
+              src={getImageSrc(project.images[0])}
               alt={project.title}
               fill
               className="object-cover"
@@ -111,7 +112,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
             <div className="mt-10 grid grid-cols-2 gap-4">
               {project.images.slice(1).map((img: string, i: number) => (
                 <div key={i} className="aspect-video relative rounded-xl overflow-hidden">
-                  <Image src={img} alt="" fill className="object-cover" />
+                  <Image src={getImageSrc(img)} alt="" fill className="object-cover" />
                 </div>
               ))}
             </div>

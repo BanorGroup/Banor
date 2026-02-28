@@ -41,19 +41,11 @@ Output is generated in the `/out` directory.
 - Repository name: `your-username.github.io` (user/org site) or any repo for project sites
 - For project sites: site will be at `https://your-username.github.io/your-repo/`
 
-### 2. Set basePath (project sites only)
+### 2. Base path (automatic for project sites)
 
-If deploying to a project site (e.g. `github.io/Banor/`), update `next.config.ts`:
+The deploy workflow automatically sets `basePath` and `assetPrefix` from the repo name. No config changes needed—CSS and images will load correctly at `https://your-username.github.io/your-repo/`.
 
-```ts
-const nextConfig: NextConfig = {
-  output: "export",
-  basePath: "/Banor",  // your repo name
-  assetPrefix: "/Banor/",
-  images: { unoptimized: true },
-  trailingSlash: true,
-};
-```
+**Custom domain:** If you use a custom domain (e.g. `banorgroup.com`), add `NEXT_PUBLIC_BASE_PATH=` to the Build step env in `.github/workflows/deploy.yml` so assets load from the root.
 
 ### 3. GitHub Actions workflow
 

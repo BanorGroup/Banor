@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import { getImageSrc } from "@/lib/utils";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
@@ -55,7 +56,7 @@ export function HeroConstructing({
             }}
           >
             <Image
-              src={heroImage}
+              src={getImageSrc(heroImage)}
               alt=""
               fill
               className="object-cover scale-105"

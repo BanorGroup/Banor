@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
-import { cn } from "@/lib/utils";
+import { cn, getImageSrc } from "@/lib/utils";
 
 interface ConstructingImageProps {
   src: string;
@@ -84,7 +84,7 @@ export function ConstructingImage({
         }}
       >
         <Image
-          src={src}
+          src={getImageSrc(src)}
           alt={alt}
           fill={fill}
           width={!fill ? width : undefined}

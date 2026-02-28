@@ -1,6 +1,6 @@
 import Image from "next/image";
 import * as Icons from "lucide-react";
-import { cn } from "@/lib/utils";
+import { cn, getImageSrc } from "@/lib/utils";
 
 function DynamicIcon({ name, className }: { name: string; className?: string }) {
   const Icon = (Icons as unknown as Record<string, React.ComponentType<{ className?: string }>>)[name];
@@ -31,7 +31,7 @@ export function TeamCard({
       <div className="flex gap-4">
           <div className="shrink-0 w-16 h-16 rounded-2xl bg-slate-700/80 overflow-hidden flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
           {image ? (
-            <Image src={image} alt={name} width={64} height={64} className="object-cover" />
+            <Image src={getImageSrc(image)} alt={name} width={64} height={64} className="object-cover" />
           ) : (
             <DynamicIcon name={icon} className="size-8 text-slate-500" />
           )}
