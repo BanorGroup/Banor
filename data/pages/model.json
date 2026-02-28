@@ -1,0 +1,61 @@
+{
+  "title": "The Model",
+  "subtitle": "Why Integrated Redevelopment Wins",
+  "description": "Fragmented redevelopment fails. The Banor integrated solution closes the loop between workforce, property, and capital.",
+  "heroImage": "/hero-model.jpg",
+  "intro": "Traditional redevelopment fragments workforce programs, property rehab, and capital deployment. Banor integrates all three into a single, closed-loop ecosystem.",
+  "sections": [
+    {
+      "type": "text",
+      "id": "problem",
+      "title": "Why Fragmented Redevelopment Fails",
+      "content": "When workforce training operates in isolation, graduates struggle to find jobs. When development happens without a local labor pipeline, projects import workers. When capital flows without mission alignment, impact dissipates. Fragmentation is the enemy of scale."
+    },
+    {
+      "type": "text",
+      "id": "solution",
+      "title": "The Banor Integrated Solution",
+      "content": "Banor closes the loop. Foundation builds the workforce. Development deploys that workforce. Capital funds the projects. Projects generate reinvestment—back into Foundation and Development. One mission. Three engines. Full circle."
+    },
+    {
+      "type": "process-steps",
+      "id": "closed-loop",
+      "title": "The Closed-Loop Model",
+      "steps": [
+        { "title": "Foundation Builds Workforce", "description": "Certifies youth in construction trades. Graduates enter Development employment pathway.", "icon": "Users" },
+        { "title": "Development Deploys Workforce", "description": "Acquires vacant properties, rehabilitates with local labor, and stabilizes neighborhoods.", "icon": "Building2" },
+        { "title": "Capital Funds Projects", "description": "Impact investors fund Development projects and Foundation programs.", "icon": "TrendingUp" },
+        { "title": "Projects Generate Reinvestment", "description": "Returns flow back into Foundation and new Development projects. The cycle continues.", "icon": "RefreshCw" }
+      ]
+    },
+    {
+      "type": "feature-grid",
+      "id": "capital-flow",
+      "title": "Capital Flow Explanation",
+      "items": [
+        {
+          "title": "Blended Capital",
+          "description": "Philanthropic, impact, and market-rate capital work together. Each layer de-risks the next.",
+          "icon": "Layers"
+        },
+        {
+          "title": "Risk Mitigation",
+          "description": "Workforce pipeline reduces labor risk. Development expertise reduces execution risk.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "title": "Scale",
+          "description": "Proven model replicates across cities. Capital follows documented impact.",
+          "icon": "Globe"
+        }
+      ]
+    },
+    {
+      "type": "call-to-action",
+      "id": "explore-arms",
+      "title": "Explore Each Arm",
+      "content": "Dive deeper into Foundation, Development, and Capital.",
+      "cta": { "label": "View Our Work", "href": "/projects" }
+    }
+  ]
+}

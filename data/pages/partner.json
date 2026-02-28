@@ -1,0 +1,38 @@
+{
+  "title": "Partner / Invest",
+  "subtitle": "Join the Ecosystem",
+  "description": "Impact investors, foundations, and municipal partners—explore opportunities to partner with Banor Group.",
+  "heroImage": "/hero-partner.jpg",
+  "intro": "Banor Group seeks mission-aligned partners: impact investors for capital deployment, foundations for workforce program funding, and municipal partners for land and policy support.",
+  "sections": [
+    {
+      "type": "feature-grid",
+      "id": "partner-types",
+      "title": "Partnership Opportunities",
+      "items": [
+        {
+          "title": "Impact Investors",
+          "description": "Accredited investors seeking financial returns and measurable social impact. Fund redevelopment projects and scale the model.",
+          "icon": "TrendingUp"
+        },
+        {
+          "title": "Foundations",
+          "description": "Philanthropic partners for Foundation workforce programs. Concessional or grant capital.",
+          "icon": "Heart"
+        },
+        {
+          "title": "Municipal Partners",
+          "description": "Cities, land banks, and redevelopment authorities. Land disposition, tax incentives, and policy alignment.",
+          "icon": "Building2"
+        }
+      ]
+    },
+    {
+      "type": "call-to-action",
+      "id": "partner-cta",
+      "title": "Start the Conversation",
+      "content": "Tell us about your interest. We'll respond within 48 hours.",
+      "cta": { "label": "Contact Us", "href": "/contact" }
+    }
+  ]
+}

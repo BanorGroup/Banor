@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Miriam Komunda",
+    "role": "Chief Executive Officer",
+    "arm": "all",
+    "bio": "Former urban planning director with 18 years in community development. Led municipal redevelopment initiatives in three cities before founding Banor.",
+    "image": "/Miriam.jpg",
+    "linkedin": "https://linkedin.com/in/miriamkomunda",
+    "icon": "User"
+  },
+  {
+    "name": "Mr Keon",
+    "role": "Chief Development Officer",
+    "arm": "development",
+    "bio": "Construction and real estate veteran. 15 years in affordable housing and market-rate development. Oversees all property acquisition and rehabilitation.",
+    "image": "/Keon.jpg",
+    "linkedin": "https://linkedin.com/in/mrkeon",
+    "icon": "Building2"
+  },
+  {
+    "name": "Ruth Komunda",
+    "role": "Foundation Director",
+    "arm": "foundation",
+    "bio": "Education and workforce development leader. Former VP of a national youth employment nonprofit. Builds certification tracks and employer partnerships.",
+    "image": "/Ruth.jpg",
+    "linkedin": "https://linkedin.com/in/ruthkomunda",
+    "icon": "GraduationCap"
+  },
+  {
+    "name": "Mr Kalvn Karungi",
+    "role": "Chief Investment Officer",
+    "arm": "capital",
+    "bio": "Impact investing and structured finance. Previously led impact fund at a national bank. Responsible for capital raising and deployment strategy.",
+    "image": "/Kalvin.jpg",
+    "linkedin": "https://linkedin.com/in/kalvnkarungi",
+    "icon": "TrendingUp"
+  },
+  {
+    "name": "Jackie Kaweesi",
+    "role": "Chief Operations Officer",
+    "arm": "all",
+    "bio": "Operations and scaling expert. Managed growth at two high-impact nonprofits. Ensures integrated operations across Foundation, Development, and Capital.",
+    "image": "/Jackie.jpg",
+    "linkedin": "https://linkedin.com/in/jackiekaweesi",
+    "icon": "Settings"
+  }
+]

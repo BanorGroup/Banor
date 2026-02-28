@@ -1,0 +1,83 @@
+{
+  "title": "Banor Development",
+  "subtitle": "Property Rehabilitation & Neighborhood Stabilization",
+  "description": "For-profit arm acquiring vacant properties, rehabilitating infrastructure, and stabilizing neighborhoods with community-first redevelopment.",
+  "heroImage": "/hero-development.jpg",
+  "intro": "Banor Development acquires and rehabilitates vacant and distressed properties. We employ Foundation graduates, restore infrastructure, and stabilize neighborhoods—one block at a time.",
+  "sections": [
+    {
+      "type": "stats-grid",
+      "id": "dev-stats",
+      "title": "Development Impact",
+      "items": [
+        { "label": "Properties Rehabilitated", "value": "127", "icon": "Building2" },
+        { "label": "Units Created", "value": "340+", "icon": "Home" },
+        { "label": "Neighborhoods Active", "value": "6", "icon": "MapPin" },
+        { "label": "Foundation Graduates Hired", "value": "180+", "icon": "Users" }
+      ]
+    },
+    {
+      "type": "before-after-gallery",
+      "id": "gallery",
+      "title": "Before & After",
+      "subtitle": "Transformation at scale",
+      "items": [
+        {
+          "before": "/project-eastwood-1.jpg",
+          "after": "/project-eastwood-2.jpg",
+          "label": "Eastwood Village — 24 units"
+        },
+        {
+          "before": "/project-gratiot-1.jpg",
+          "after": "/project-gratiot-2.jpg",
+          "label": "Gratiot Corridor — 18 properties"
+        }
+      ]
+    },
+    {
+      "type": "feature-grid",
+      "id": "methodology",
+      "title": "Redevelopment Methodology",
+      "items": [
+        {
+          "title": "Acquisition Strategy",
+          "description": "Targeted acquisition of vacant, tax-delinquent, and distressed properties. Municipal partnerships and land bank agreements.",
+          "icon": "Search"
+        },
+        {
+          "title": "Rehabilitation Standards",
+          "description": "Full gut rehabs with modern systems. Energy-efficient upgrades. Durable, quality finishes.",
+          "icon": "Wrench"
+        },
+        {
+          "title": "Infrastructure Stabilization",
+          "description": "Street improvements, utility upgrades, and green infrastructure. We invest beyond the lot line.",
+          "icon": "TreeDeciduous"
+        },
+        {
+          "title": "Community-First",
+          "description": "Local hiring. Community input. Affordable housing set-asides. Neighborhood ownership.",
+          "icon": "Heart"
+        }
+      ]
+    },
+    {
+      "type": "process-steps",
+      "id": "rehab-process",
+      "title": "Redevelopment Process",
+      "steps": [
+        { "title": "Identify & Acquire", "description": "Target properties aligned with neighborhood plans. Negotiate with owners, land banks, municipalities.", "icon": "FileSearch" },
+        { "title": "Design & Permits", "description": "Architectural plans, engineering, permits. Foundation trainees support pre-construction.", "icon": "Ruler" },
+        { "title": "Rehabilitate", "description": "Full construction with local labor. Foundation graduates as primary workforce.", "icon": "HardHat" },
+        { "title": "Stabilize & Exit", "description": "Lease or sell. Reinvest proceeds. Scale to next project.", "icon": "Target" }
+      ]
+    },
+    {
+      "type": "call-to-action",
+      "id": "view-projects",
+      "title": "See Our Work",
+      "content": "Explore completed and in-progress projects across our portfolio.",
+      "cta": { "label": "View Projects", "href": "/projects" }
+    }
+  ]
+}

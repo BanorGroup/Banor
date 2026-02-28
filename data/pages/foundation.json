@@ -1,0 +1,73 @@
+{
+  "title": "Banor Foundation",
+  "subtitle": "Youth Workforce Development",
+  "description": "Nonprofit arm training youth in trade skills, certification tracks, and employment pathways into redevelopment.",
+  "heroImage": "/hero-foundation.jpg",
+  "intro": "Banor Foundation prepares young people for careers in construction and redevelopment. Certified graduates enter the Development employment pathway—closing the workforce gap while building community.",
+  "sections": [
+    {
+      "type": "stats-grid",
+      "id": "foundation-stats",
+      "title": "Foundation Impact",
+      "items": [
+        { "label": "Youth Trained", "value": "2,400+", "icon": "GraduationCap" },
+        { "label": "Certification Tracks", "value": "8", "icon": "Award" },
+        { "label": "Placement Rate", "value": "78%", "icon": "TrendingUp" },
+        { "label": "Partner Employers", "value": "24", "icon": "Building2" }
+      ]
+    },
+    {
+      "type": "feature-grid",
+      "id": "programs",
+      "title": "Program Overview",
+      "items": [
+        {
+          "title": "Trade Skill Training",
+          "description": "Hands-on training in carpentry, electrical, HVAC, and general construction. Industry-certified instructors.",
+          "icon": "Wrench"
+        },
+        {
+          "title": "Certification Tracks",
+          "description": "OSHA 10, NCCER credentials, and state licensing pathways. Stackable credentials for career advancement.",
+          "icon": "Award"
+        },
+        {
+          "title": "Employment Pathway",
+          "description": "Direct placement into Banor Development projects and partner employers. Paid internships and apprenticeships.",
+          "icon": "Briefcase"
+        },
+        {
+          "title": "Community Restoration",
+          "description": "Service projects that pair training with neighborhood improvement. Learn while you build.",
+          "icon": "Heart"
+        }
+      ]
+    },
+    {
+      "type": "testimonial",
+      "id": "testimonials",
+      "title": "Graduate Testimonials",
+      "items": [
+        {
+          "quote": "Banor gave me a real path. I'm a lead carpenter now, 18 months in. This program changed everything.",
+          "author": "Marcus J., Lead Carpenter, Banor Development"
+        },
+        {
+          "quote": "The certification opened doors I didn't know existed. I'm earning $22 an hour with full benefits.",
+          "author": "Destiny L., HVAC Technician"
+        },
+        {
+          "quote": "78% of our cohort got placed within 90 days. The employment pathway actually works.",
+          "author": "Cohort 12 Graduate"
+        }
+      ]
+    },
+    {
+      "type": "call-to-action",
+      "id": "support-foundation",
+      "title": "Support the Foundation",
+      "content": "Philanthropic partners and program donors—invest in workforce development.",
+      "cta": { "label": "Partner With Us", "href": "/partner" }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "siteName": "Banor Group",
+  "tagline": "One Mission. Three Engines.",
+  "subtagline": "Train. Build. Fund. Scale.",
+  "description": "Banor Group is an integrated redevelopment ecosystem—Foundation, Development, and Capital—working together to transform neighborhoods through workforce training, property rehabilitation, and impact investment.",
+  "primaryColor": "#4a7c59",
+  "brandValues": [
+    "Long-term stability",
+    "System-level thinking",
+    "Scalable redevelopment",
+    "Capital discipline",
+    "Workforce empowerment"
+  ],
+  "openGraph": {
+    "title": "Banor Group | Integrated Redevelopment Ecosystem",
+    "description": "One Mission. Three Engines. Train. Build. Fund. Scale. Transforming neighborhoods through workforce development, property rehabilitation, and impact investment.",
+    "image": "/og-image.jpg"
+  },
+  "twitter": {
+    "handle": "@banorgroup",
+    "cardType": "summary_large_image"
+  },
+  "socialLinks": [
+    { "label": "LinkedIn", "url": "https://linkedin.com/company/banorgroup", "icon": "Linkedin" },
+    { "label": "Twitter", "url": "https://twitter.com/banorgroup", "icon": "Twitter" },
+    { "label": "YouTube", "url": "https://youtube.com/@banorgroup", "icon": "Youtube" }
+  ],
+  "footer": {
+    "columns": [
+      {
+        "title": "Ecosystem",
+        "links": [
+          { "label": "The Model", "href": "/model" },
+          { "label": "Foundation", "href": "/foundation" },
+          { "label": "Development", "href": "/development" },
+          { "label": "Capital", "href": "/capital" }
+        ]
+      },
+      {
+        "title": "Explore",
+        "links": [
+          { "label": "Projects", "href": "/projects" },
+          { "label": "Impact", "href": "/impact" },
+          { "label": "Insights", "href": "/insights" },
+          { "label": "Team", "href": "/#team" }
+        ]
+      },
+      {
+        "title": "Connect",
+        "links": [
+          { "label": "Partner / Invest", "href": "/partner" },
+          { "label": "Contact", "href": "/contact" }
+        ]
+      }
+    ],
+    "copyright": "© 2026 Banor Group. All rights reserved."
+  },
+  "contactInfo": {
+    "email": "info@banorgroup.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Restoration Way, Suite 100, Detroit, MI 48201"
+  },
+  "ecosystemNarrative": "Banor Group unifies three operating arms—Foundation, Development, and Capital—into a single, closed-loop redevelopment platform. Foundation builds the workforce. Development deploys that workforce. Capital funds the projects. Projects generate reinvestment into communities. One domain. Three subpaths. One ecosystem.",
+  "navigation": [
+    { "label": "Home", "href": "/" },
+    { "label": "The Model", "href": "/model" },
+    { "label": "Foundation", "href": "/foundation" },
+    { "label": "Development", "href": "/development" },
+    { "label": "Capital", "href": "/capital" },
+    { "label": "Projects", "href": "/projects" },
+    { "label": "Impact", "href": "/impact" },
+    { "label": "Team", "href": "/#team" },
+    { "label": "Insights", "href": "/insights" },
+    { "label": "Partner / Invest", "href": "/partner" },
+    { "label": "Contact", "href": "/contact" }
+  ]
+}

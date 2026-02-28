@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "why-integrated-redevelopment-wins",
+    "title": "Why Integrated Redevelopment Wins",
+    "excerpt": "Fragmented approaches—workforce programs here, property rehab there, capital somewhere else—consistently underperform. Here's why integration matters.",
+    "date": "2025-11-15",
+    "author": "miriam-komunda",
+    "category": "Model",
+    "contentSections": [
+      {
+        "type": "text",
+        "content": "For decades, community redevelopment has operated in silos. Workforce programs train people who can't find jobs. Development projects import workers from elsewhere. Capital flows to the wrong projects. The result: wasted resources, missed impact, and communities left behind."
+      },
+      {
+        "type": "text",
+        "content": "Banor was built on a different premise: close the loop. When Foundation trainees become Development workers, labor risk drops. When Development creates jobs in the same neighborhoods it rebuilds, community benefit compounds. When Capital aligns with both, scale becomes possible."
+      }
+    ]
+  },
+  {
+    "slug": "blended-capital-in-practice",
+    "title": "Blended Capital in Practice",
+    "excerpt": "How philanthropic, impact, and market-rate capital work together in the Banor model—and why each layer matters.",
+    "date": "2025-10-03",
+    "author": "kalvn-karungi",
+    "category": "Capital",
+    "contentSections": [
+      {
+        "type": "text",
+        "content": "Blended capital isn't just a buzzword at Banor—it's the structural backbone of our model. Philanthropic capital funds Foundation workforce programs that reduce labor cost and risk for Development. Impact capital provides patient capital for early-stage projects."
+      },
+      {
+        "type": "text",
+        "content": "Market-rate capital flows into stabilized projects, generating returns that attract institutional investors. Each layer de-risks the next. The result: a capital stack that aligns incentives across the ecosystem."
+      }
+    ]
+  },
+  {
+    "slug": "workforce-pipeline-as-risk-mitigation",
+    "title": "Workforce Pipeline as Risk Mitigation",
+    "excerpt": "Construction labor shortages are a major development risk. A certified workforce pipeline changes the calculus.",
+    "date": "2025-09-18",
+    "author": "ruth-komunda",
+    "category": "Foundation",
+    "contentSections": [
+      {
+        "type": "text",
+        "content": "Every developer faces the same challenge: finding qualified, reliable labor. Labor cost overruns and schedule delays are among the top causes of project failure. Banor's advantage: we grow our own workforce."
+      },
+      {
+        "type": "text",
+        "content": "Foundation graduates enter Development with certifications, work ethic, and community connection. They're not imported—they're local. That reduces turnover, builds neighborhood trust, and creates a competitive advantage in execution."
+      }
+    ]
+  }
+]

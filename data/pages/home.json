@@ -1,0 +1,77 @@
+{
+  "title": "Banor Group",
+  "subtitle": "One Mission. Three Engines.",
+  "description": "An integrated redevelopment ecosystem—workforce, redevelopment, and capital working together to transform neighborhoods.",
+  "heroImage": "/hero-home.jpg",
+  "intro": "We train the workforce. We rehabilitate properties. We deploy capital. Together, we scale community transformation.",
+  "sections": [
+    {
+      "type": "text",
+      "id": "hero",
+      "title": "Integrated Redevelopment Ecosystem",
+      "content": "Banor Group unifies workforce development, property rehabilitation, and impact investment into a single, closed-loop system. No fragmented programs. No disconnected capital. One mission. Three engines.",
+      "cta": { "label": "Explore the Model", "href": "/model" }
+    },
+    {
+      "type": "feature-grid",
+      "id": "ecosystem",
+      "title": "The Ecosystem Explained",
+      "subtitle": "Foundation → Development → Capital → reinvest into communities",
+      "items": [
+        {
+          "title": "Foundation",
+          "description": "Youth trade training, certification tracks, and employment pathways into development.",
+          "icon": "Users"
+        },
+        {
+          "title": "Development",
+          "description": "Property acquisition, rehabilitation, and neighborhood stabilization.",
+          "icon": "Building2"
+        },
+        {
+          "title": "Capital",
+          "description": "Impact investment, blended capital, and scalable deployment across cities.",
+          "icon": "TrendingUp"
+        },
+        {
+          "title": "Reinvest",
+          "description": "Project returns flow back into Foundation programs and new Development projects. The model scales.",
+          "icon": "RefreshCw"
+        }
+      ]
+    },
+    {
+      "type": "stats-grid",
+      "id": "impact-preview",
+      "title": "Impact at Scale",
+      "items": [
+        { "label": "Properties Restored", "value": "127", "icon": "Building2" },
+        { "label": "Youth Trained", "value": "2,400+", "icon": "GraduationCap" },
+        { "label": "Jobs Created", "value": "840+", "icon": "Briefcase" },
+        { "label": "Capital Deployed", "value": "$24M", "icon": "DollarSign" }
+      ]
+    },
+    {
+      "type": "process-steps",
+      "id": "how-it-works",
+      "title": "How It Works",
+      "steps": [
+        { "title": "Train", "description": "Foundation trains youth in trade skills and connects them to employment pathways.", "icon": "GraduationCap" },
+        { "title": "Build", "description": "Development acquires and rehabilitates vacant properties, creating jobs.", "icon": "HardHat" },
+        { "title": "Fund", "description": "Capital attracts impact investors and scales the model across cities.", "icon": "PiggyBank" },
+        { "title": "Scale", "description": "Reinvestment flows back into Foundation programs and new Development projects. The model replicates.", "icon": "TrendingUp" }
+      ]
+    },
+    {
+      "type": "call-to-action",
+      "id": "partner-cta",
+      "title": "Partner With Us",
+      "content": "Impact investors, foundations, and municipal partners—join the ecosystem.",
+      "cta": { "label": "Partner / Invest", "href": "/partner" }
+    }
+  ],
+  "CTAs": [
+    { "label": "Explore the Model", "href": "/model", "primary": true },
+    { "label": "View Projects", "href": "/projects", "primary": false }
+  ]
+}

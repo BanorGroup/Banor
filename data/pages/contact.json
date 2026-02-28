@@ -1,0 +1,42 @@
+{
+  "title": "Contact",
+  "subtitle": "Get in Touch",
+  "description": "Contact Banor Group for partnerships, investments, media, and general inquiries.",
+  "heroImage": "/hero-contact.jpg",
+  "intro": "Whether you're an impact investor, municipal partner, foundation, or community member—we want to hear from you.",
+  "sections": [
+    {
+      "type": "text",
+      "id": "contact-intro",
+      "title": "Reach Out",
+      "content": "General inquiries: info@banorgroup.com. For investment or partnership discussions, please use the Partner form. For media inquiries, contact press@banorgroup.com."
+    },
+    {
+      "type": "feature-grid",
+      "id": "contact-options",
+      "title": "Contact Options",
+      "items": [
+        {
+          "title": "General Inquiries",
+          "description": "info@banorgroup.com",
+          "icon": "Mail"
+        },
+        {
+          "title": "Partner / Invest",
+          "description": "Visit our Partner page for investment and partnership inquiries.",
+          "icon": "Handshake"
+        },
+        {
+          "title": "Media",
+          "description": "press@banorgroup.com",
+          "icon": "Newspaper"
+        },
+        {
+          "title": "Address",
+          "description": "123 Restoration Way, Suite 100, Detroit, MI 48201",
+          "icon": "MapPin"
+        }
+      ]
+    }
+  ]
+}

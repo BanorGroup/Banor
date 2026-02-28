@@ -1,0 +1,34 @@
+[
+  {
+    "id": "miriam-komunda",
+    "name": "Miriam Komunda",
+    "role": "Chief Executive Officer",
+    "bio": "Former urban planning director. Founder of Banor Group.",
+    "image": "/Miriam.jpg",
+    "linkedin": "https://linkedin.com/in/miriamkomunda"
+  },
+  {
+    "id": "kalvn-karungi",
+    "name": "Mr Kalvn Karungi",
+    "role": "Chief Investment Officer",
+    "bio": "Impact investing and structured finance expert.",
+    "image": "/Kalvin.jpg",
+    "linkedin": "https://linkedin.com/in/kalvnkarungi"
+  },
+  {
+    "id": "jackie-kaweesi",
+    "name": "Jackie Kaweesi",
+    "role": "Chief Operations Officer",
+    "bio": "Operations and scaling expert. Ensures integrated operations across Foundation, Development, and Capital.",
+    "image": "/Jackie.jpg",
+    "linkedin": "https://linkedin.com/in/jackiekaweesi"
+  },
+  {
+    "id": "ruth-komunda",
+    "name": "Ruth Komunda",
+    "role": "Foundation Director",
+    "bio": "Workforce development leader. Builds certification tracks and employer partnerships.",
+    "image": "/Ruth.jpg",
+    "linkedin": "https://linkedin.com/in/ruthkomunda"
+  }
+]

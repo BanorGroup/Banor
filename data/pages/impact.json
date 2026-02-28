@@ -1,0 +1,46 @@
+{
+  "title": "Impact",
+  "subtitle": "Measured Outcomes",
+  "description": "Data-driven impact metrics: properties rehabilitated, youth trained, jobs created, neighborhoods stabilized, capital deployed.",
+  "heroImage": "/hero-impact.jpg",
+  "intro": "Banor Group tracks outcomes across the integrated ecosystem. Every metric connects to our mission: train, build, fund, scale.",
+  "sections": [
+    {
+      "type": "stats-grid-animated",
+      "id": "impact-metrics",
+      "title": "Impact Dashboard",
+      "items": [
+        { "label": "Properties Rehabilitated", "value": "127", "icon": "Building2" },
+        { "label": "Youth Trained", "value": "2,400", "icon": "GraduationCap" },
+        { "label": "Jobs Created", "value": "840", "icon": "Briefcase" },
+        { "label": "Neighborhoods Stabilized", "value": "6", "icon": "MapPin" },
+        { "label": "Capital Deployed", "value": "$24M", "icon": "DollarSign" }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "methodology",
+      "title": "Impact Methodology",
+      "content": "Metrics are verified through project records, employment data, and third-party reporting. We report annually and align with IRIS+ and industry standards for impact measurement."
+    },
+    {
+      "type": "timeline",
+      "id": "growth-timeline",
+      "title": "Growth Timeline",
+      "items": [
+        { "year": "2022", "title": "Launch", "description": "Banor Foundation and Development launch. First cohort completes training." },
+        { "year": "2023", "title": "Scale", "description": "Capital arm launches. 45 properties rehabbed. 800 youth trained." },
+        { "year": "2024", "title": "Expansion", "description": "Six neighborhoods active. $18M deployed. 600+ jobs created." },
+        { "year": "2025", "title": "Momentum", "description": "127 properties. 2,400 youth. National interest for replication." },
+        { "year": "2026", "title": "Replication", "description": "Pilot in second city. Capital raise for scale fund." }
+      ]
+    },
+    {
+      "type": "call-to-action",
+      "id": "partner-impact",
+      "title": "Amplify Impact",
+      "content": "Partner with us to scale redevelopment and workforce development.",
+      "cta": { "label": "Partner / Invest", "href": "/partner" }
+    }
+  ]
+}

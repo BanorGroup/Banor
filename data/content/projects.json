@@ -1,0 +1,87 @@
+[
+  {
+    "slug": "eastwood-village",
+    "title": "Eastwood Village Rehab",
+    "location": "Detroit, MI",
+    "summary": "Multi-property rehabilitation in Eastwood creating 42 units and employing 24 Foundation graduates.",
+    "description": "Eastwood Village represents Banor's integrated model at scale. Twenty-four vacant properties were acquired through the Detroit Land Bank. Foundation graduates completed 60% of labor. The project created 42 mixed-income units and catalyzed additional private investment on three surrounding blocks.",
+    "arm": "development",
+    "status": "Completed",
+    "impactStats": [
+      { "label": "Units", "value": "42" },
+      { "label": "Jobs Created", "value": "24" },
+      { "label": "Foundation Graduates", "value": "18" }
+    ],
+    "images": ["/project-eastwood-1.jpg", "/project-eastwood-2.jpg"],
+    "icon": "Building2",
+    "featured": true
+  },
+  {
+    "slug": "north-end-workforce-hub",
+    "title": "North End Workforce Hub",
+    "location": "Detroit, MI",
+    "summary": "Training center and employment pathway serving 400 youth annually.",
+    "description": "The North End Workforce Hub houses Banor Foundation's flagship training program. Six certification tracks, industry partnerships, and direct placement into Banor Development projects. Since opening, 400 youth have completed programming with a 78% placement rate within 90 days.",
+    "arm": "foundation",
+    "status": "Active",
+    "impactStats": [
+      { "label": "Youth Served/Year", "value": "400" },
+      { "label": "Placement Rate", "value": "78%" },
+      { "label": "Partner Employers", "value": "24" }
+    ],
+    "images": ["/project-eastwood-1.jpg"],
+    "icon": "GraduationCap",
+    "featured": true
+  },
+  {
+    "slug": "banor-scale-fund-i",
+    "title": "Banor Scale Fund I",
+    "location": "Multi-City",
+    "summary": "Impact fund deploying $15M into redevelopment projects across the ecosystem.",
+    "description": "Banor Scale Fund I attracted impact investors seeking both financial returns and measurable social impact. The fund deploys into Development projects, with a portion allocated to Foundation program support. Target: 75 properties, 500 jobs, 600 youth trained over fund life.",
+    "arm": "capital",
+    "status": "Active",
+    "impactStats": [
+      { "label": "Fund Size", "value": "$15M" },
+      { "label": "Target Properties", "value": "75" },
+      { "label": "Target Jobs", "value": "500" }
+    ],
+    "images": ["/project-gratiot-1.jpg"],
+    "icon": "TrendingUp",
+    "featured": true
+  },
+  {
+    "slug": "gratiot-corridor",
+    "title": "Gratiot Corridor Stabilization",
+    "location": "Detroit, MI",
+    "summary": "Infrastructure and property rehabilitation along Gratiot Avenue corridor.",
+    "description": "The Gratiot Corridor project addresses blight and vacancy along a key commercial and residential corridor. Banor Development partnered with the city on infrastructure improvements while rehabilitating 18 properties. Foundation trainees supported demolition and site prep. Project completed Q3 2025.",
+    "arm": "development",
+    "status": "Completed",
+    "impactStats": [
+      { "label": "Properties", "value": "18" },
+      { "label": "Units", "value": "36" },
+      { "label": "Infrastructure Investment", "value": "$1.2M" }
+    ],
+    "images": ["/project-gratiot-1.jpg", "/project-gratiot-2.jpg"],
+    "icon": "MapPin",
+    "featured": false
+  },
+  {
+    "slug": "marcus-place-transition",
+    "title": "Marcus Place Transition Program",
+    "location": "Detroit, MI",
+    "summary": "Transitional employment program for youth exiting systems.",
+    "description": "Marcus Place pairs intensive trade training with wraparound support for youth exiting foster care, juvenile justice, or experiencing homelessness. Program includes stipend, housing referrals, and guaranteed interview with Banor Development upon completion. Cohort size: 30 per year.",
+    "arm": "foundation",
+    "status": "Active",
+    "impactStats": [
+      { "label": "Cohort Size", "value": "30/year" },
+      { "label": "Completion Rate", "value": "85%" },
+      { "label": "Placement Rate", "value": "72%" }
+    ],
+    "images": ["/project-eastwood-1.jpg"],
+    "icon": "Users",
+    "featured": false
+  }
+]

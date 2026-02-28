@@ -1,0 +1,72 @@
+{
+  "title": "Banor Capital",
+  "subtitle": "Impact Investment & Blended Capital",
+  "description": "Investment arm structured to attract impact investors, fund redevelopment projects, and scale the Banor model globally.",
+  "heroImage": "/hero-capital.jpg",
+  "intro": "Banor Capital channels impact-focused capital into the integrated ecosystem. Investors achieve financial returns and measurable social impact—properties restored, youth trained, jobs created.",
+  "sections": [
+    {
+      "type": "text",
+      "id": "thesis",
+      "title": "Investment Thesis",
+      "content": "Redevelopment succeeds when workforce, property, and capital align. Banor's integrated model reduces execution risk, builds local capacity, and generates both financial and impact returns. We seek investors who value both."
+    },
+    {
+      "type": "process-steps",
+      "id": "capital-deployment",
+      "title": "Capital Deployment Diagram",
+      "steps": [
+        { "title": "Philanthropic Layer", "description": "Foundations and donors fund workforce training. Concessional capital de-risks the ecosystem.", "icon": "Heart" },
+        { "title": "Impact Layer", "description": "Impact investors fund early-stage projects. Below-market returns, measurable impact.", "icon": "Target" },
+        { "title": "Market Layer", "description": "Stabilized projects attract market-rate capital. Institutional investors enter.", "icon": "TrendingUp" },
+        { "title": "Reinvest", "description": "Returns flow to Foundation and new Development. Scale across cities.", "icon": "RefreshCw" }
+      ]
+    },
+    {
+      "type": "feature-grid",
+      "id": "capital-model",
+      "title": "Blended Capital Structure",
+      "items": [
+        {
+          "title": "Philanthropic Layer",
+          "description": "Foundations and donors fund Foundation programs. Concessional capital for workforce training.",
+          "icon": "Heart"
+        },
+        {
+          "title": "Impact Layer",
+          "description": "Impact investors target below-market returns with measurable social outcomes.",
+          "icon": "Target"
+        },
+        {
+          "title": "Market Layer",
+          "description": "Market-rate capital for stabilized projects. Risk-adjusted returns for institutional investors.",
+          "icon": "TrendingUp"
+        }
+      ]
+    },
+    {
+      "type": "stats-grid",
+      "id": "expected-impact",
+      "title": "Expected Impact Metrics",
+      "items": [
+        { "label": "Properties per $1M Deployed", "value": "5-8", "icon": "Building2" },
+        { "label": "Jobs Created per Property", "value": "6-10", "icon": "Briefcase" },
+        { "label": "Youth Trained (Foundation)", "value": "20+/year", "icon": "GraduationCap" },
+        { "label": "Target IRR (Blended)", "value": "8-12%", "icon": "Percent" }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "risk-mitigation",
+      "title": "Risk Mitigation Strategy",
+      "content": "Workforce pipeline reduces labor cost and schedule risk. Development expertise reduces execution risk. Blended capital structure aligns incentives. Diversified project pipeline reduces concentration risk."
+    },
+    {
+      "type": "call-to-action",
+      "id": "investor-cta",
+      "title": "Become an Impact Investor",
+      "content": "Accredited investors, foundations, and family offices—explore opportunities to invest in the Banor ecosystem.",
+      "cta": { "label": "Partner / Invest", "href": "/partner" }
+    }
+  ]
+}
