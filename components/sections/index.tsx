@@ -10,7 +10,7 @@ import { ConstructingImage } from "@/components/constructing-image";
 import { RevealOnScroll } from "@/components/scroll-reveal";
 
 function DynamicIcon({ name, className }: { name: string; className?: string }) {
-  const Icon = (Icons as Record<string, React.ComponentType<{ className?: string }>>)[name];
+  const Icon = (Icons as unknown as Record<string, React.ComponentType<{ className?: string }>>)[name];
   return Icon ? <Icon className={cn("size-6", className)} /> : null;
 }
 

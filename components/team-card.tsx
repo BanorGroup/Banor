@@ -3,7 +3,7 @@ import * as Icons from "lucide-react";
 import { cn } from "@/lib/utils";
 
 function DynamicIcon({ name, className }: { name: string; className?: string }) {
-  const Icon = (Icons as Record<string, React.ComponentType<{ className?: string }>>)[name];
+  const Icon = (Icons as unknown as Record<string, React.ComponentType<{ className?: string }>>)[name];
   return Icon ? <Icon className={className} /> : null;
 }
 

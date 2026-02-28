@@ -7,7 +7,7 @@ import { getProject, getProjects } from "@/lib/data";
 import { generateSEO, generateBreadcrumbJSONLD } from "@/lib/seo";
 
 function DynamicIcon({ name, className }: { name: string; className?: string }) {
-  const Icon = (Icons as Record<string, React.ComponentType<{ className?: string }>>)[name];
+  const Icon = (Icons as unknown as Record<string, React.ComponentType<{ className?: string }>>)[name];
   return Icon ? <Icon className={className} /> : null;
 }
 

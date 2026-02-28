@@ -5,7 +5,7 @@ import * as Icons from "lucide-react";
 import { ConstructingImage } from "@/components/constructing-image";
 
 function DynamicIcon({ name, className }: { name: string; className?: string }) {
-  const Icon = (Icons as Record<string, React.ComponentType<{ className?: string }>>)[name];
+  const Icon = (Icons as unknown as Record<string, React.ComponentType<{ className?: string }>>)[name];
   return Icon ? <Icon className={className} /> : null;
 }
 
