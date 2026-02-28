@@ -2,7 +2,13 @@
 
 import Link from "next/link";
 import * as Icons from "lucide-react";
-import { ConstructingImage } from "@/components/constructing-image";
+import { getImageSrc } from "@/lib/utils";
+
+const SLUG_TO_IMAGE: Record<string, string> = {
+  "eastwood-village": "/project-eastwood-1.jpg",
+  "north-end-workforce-hub": "/project-eastwood-2.jpg",
+  "banor-scale-fund-i": "/project-gratiot-1.jpg",
+};
 
 function DynamicIcon({ name, className }: { name: string; className?: string }) {
   const Icon = (Icons as unknown as Record<string, React.ComponentType<{ className?: string }>>)[name];
@@ -30,6 +36,7 @@ export function ProjectCard({
   images = [],
   icon = "Building2",
 }: ProjectCardProps) {
+  const imageSrc = images?.[0] || SLUG_TO_IMAGE[slug];
   const armLabels: Record<string, string> = {
     foundation: "Foundation",
     development: "Development",
@@ -39,15 +46,12 @@ export function ProjectCard({
     <Link href={`/projects/${slug}`}>
       <article className="group rounded-2xl bg-slate-800/50 border border-slate-700/50 overflow-hidden backdrop-blur-sm transition-all duration-300 hover:border-primary/40 hover:shadow-2xl hover:shadow-primary/10 hover:-translate-y-1">
         <div className="aspect-video bg-slate-800 relative overflow-hidden">
-          {images[0] ? (
-            <ConstructingImage
-              src={images[0]}
+          {imageSrc ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={`${getImageSrc(imageSrc)}?v=1`}
               alt={title}
-              fill
-              className="aspect-video relative"
-              imgClassName="object-cover group-hover:scale-105 transition-transform duration-300"
-              sizes="(max-width: 768px) 100vw, 33vw"
-              variant="build-up"
+              className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
             />
           ) : (
             <div className="absolute inset-0 flex items-center justify-center text-slate-600">
