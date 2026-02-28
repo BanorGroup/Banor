@@ -19,6 +19,35 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Determine base path for project sites
+        id: base-path
+        run: |
+          REPO_NAME="${{ github.event.repository.name }}"
+          if [[ "$REPO_NAME" == *".github.io" ]]; then
+            echo "path=" >> $GITHUB_OUTPUT
+          else
+            echo "path=/$REPO_NAME" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Build
+        run: npm run build
+        env:
+          NEXT_PUBLIC_BASE_PATH: ${{ steps.base-path.outputs.path }}
+
+      - name: Copy build output to docs
+        run: |
+          rm -rf docs
+          cp -r out docs
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
